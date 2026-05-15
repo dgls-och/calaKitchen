@@ -1,4 +1,4 @@
-export const homepage = (function () {
+export const home = (function () {
   const displayContent = (outputDiv) => {
     const heroHeadline = document.createElement("h2");
     heroHeadline.textContent = "Taste That Feels Like Home";
