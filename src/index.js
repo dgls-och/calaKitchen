@@ -1,6 +1,7 @@
 import "./styles.css";
 import { home } from "./home.js";
 import { menu } from "./menu.js";
+import { about } from "./about.js";
 
 const display = document.querySelector("#content");
 const navButtons = document.querySelectorAll("nav button");
@@ -25,6 +26,7 @@ navButtons.forEach(button => {
 
     if (button.dataset.id == "about") {
       display.textContent = "";
+      about.displayAbout(display);
       return;
     }
   });
