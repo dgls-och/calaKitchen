@@ -22,5 +22,10 @@ navButtons.forEach(button => {
       menu.displayMenu(display);
       return;
     }
+
+    if (button.dataset.id == "about") {
+      display.textContent = "";
+      return;
+    }
   });
 });
