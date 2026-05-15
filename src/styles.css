@@ -105,6 +105,18 @@ header nav button:hover {
   color: var(--bttn-text);
 }
 
+/* menu */
+.dish {
+  width: 80%;
+  margin: 2rem auto 0;
+  border: 2px solid;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 3px 1px #2c2c2c;
+}
+
+/* about */
+
 /* -------- footer -------- */
 footer {
   margin-top: 2rem;
