@@ -61,7 +61,7 @@ header nav button:hover {
   border-radius: 0.5rem;
 }
 
-.bordered-btn {
+.active-btn {
   box-shadow: 0.3rem 0.3rem, 6px 6px #c9a227;
 }
 
