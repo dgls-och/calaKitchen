@@ -14,12 +14,14 @@ navButtons.forEach(button => {
     if (button.dataset.id == "home") {
       display.textContent = "";
       home.displayContent(display);
+      button.classList.add("active-btn");
       return;
     }
 
     if (button.dataset.id == "menu") {
       display.textContent = "";
       menu.displayMenu(display);
+      button.classList.add("active-btn");
       return;
     }
   });
