@@ -1,3 +1,5 @@
+import "./styles.css";
+
 export const home = (function () {
   const displayContent = (outputDiv) => {
     const heroHeadline = document.createElement("h2");
