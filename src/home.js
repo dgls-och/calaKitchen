@@ -1,4 +1,5 @@
 import "./styles.css";
+import { menu } from "./menu.js";
 
 export const home = (function () {
   const displayContent = (outputDiv) => {
@@ -18,7 +19,12 @@ export const home = (function () {
     const menuButton = document.createElement("button");
     menuButton.dataset.id = "menu";
     menuButton.textContent = "Check our menu";
-    menuButton.classList.add("content-nav-button", "menu-button")
+    menuButton.classList.add("content-nav-button", "menu-button");
+    menuButton.addEventListener('click', e => {
+      e.preventDefault();
+      display.textContent = "";
+      menu.displayMenu(display);
+    });
 
     const aboutButton = document.createElement("button");
     aboutButton.dataset.id = "about";
