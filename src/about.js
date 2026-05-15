@@ -3,9 +3,11 @@ import "./styles.css";
 export const about = (function () {
   const displayAbout = (display) => {
     const heading = document.createElement("h2");
-    heading.textContent = "Let's Tell You the Story"
+    heading.classList.add("dish-h2");
+    heading.textContent = "Let's Tell You the Story";
     
     const about = document.createElement("p");
+    about.classList.add("dish-p");
     about.textContent = "calaKitchen started with a simple idea: " 
       + "food should feel like home, no matter where it's from. " 
       + "By bringing together Nigerian classics, East african warmth, and Asian flair, " 
