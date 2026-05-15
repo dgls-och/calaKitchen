@@ -108,7 +108,7 @@ header nav button:hover {
 /* menu */
 .dish {
   width: 80%;
-  margin: 2rem auto 0;
+  margin: 3rem auto 0;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 3px 1px #2c2c2c;
@@ -128,7 +128,7 @@ header nav button:hover {
 
 /* -------- footer -------- */
 footer {
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 
 footer a {
