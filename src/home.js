@@ -1,5 +1,7 @@
 import "./styles.css";
 import { menu } from "./menu.js";
+import { about } from "./about.js";
+
 const display = document.querySelector("#content");
 
 export const home = (function () {
@@ -30,7 +32,12 @@ export const home = (function () {
     const aboutButton = document.createElement("button");
     aboutButton.dataset.id = "about";
     aboutButton.textContent = "Learn more about us";
-    aboutButton.classList.add("content-nav-button")
+    aboutButton.classList.add("content-nav-button");
+    aboutButton.addEventListener('click', e => {
+      e.preventDefault();
+      display.textContent = "";
+      about.displayAbout(display);
+    });
 
     const contentNav = document.createElement("nav");
     contentNav.appendChild(menuButton);
