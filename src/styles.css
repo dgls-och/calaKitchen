@@ -109,10 +109,19 @@ header nav button:hover {
 .dish {
   width: 80%;
   margin: 2rem auto 0;
-  border: 2px solid;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 3px 1px #2c2c2c;
+}
+
+.dish-h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.dish-p {
+  margin-bottom: 1rem;
+  font-size: var(--main-font);
 }
 
 /* about */
