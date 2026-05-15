@@ -44,6 +44,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   width: min(50%, 300px);
+  position: sticky;
 }
 
 header nav button {
@@ -105,8 +106,13 @@ header nav button:hover {
 }
 
 /* -------- footer -------- */
+footer {
+  margin-top: 2rem;
+}
+
 footer a {
   color: #2c2c2c;
+  font-size: var(--main-font);
 }
 
 footer a:hover {
